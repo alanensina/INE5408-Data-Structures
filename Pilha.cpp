@@ -83,6 +83,10 @@ int Pilha_topo()
     return topo;
 }
 
+/* Limpar a pilha. */
+void Pilha_limpar(){
+ topo = -1;   
+}
 
 int main()
 {
