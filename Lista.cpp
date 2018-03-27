@@ -187,7 +187,7 @@ int Lista_Retira_da_Posicao(int index)
 /* Método que adiciona de maneira ordenada dentro do vetor
 - Verifica se a lista está vazia
 - Uma variável temporária é criada (atual) e atribuida o valor zero. Elá irá auxiliar a "varrer" o vetor e encontrar uma posição vazia.
-- Após varrer o vetor e encontrar uma posição vazia, retorne o método chamando o método Lista_Adiciona_na_Posicao com o valor de paramentro e o valor "atual"
+- Após varrer o vetor e encontrar uma posição vazia, utilize o método Lista_Adiciona_na_Posicao com o valor de paramentro e o valor "atual"
 */
 void Lista_Adiciona_Ordenado(int valor)
 {
@@ -203,7 +203,7 @@ void Lista_Adiciona_Ordenado(int valor)
         atual++;
     }
 
-    return Lista_Adiciona_na_Posicao(valor,atual);
+    Lista_Adiciona_na_Posicao(valor,atual);
 }
 
 /* Método que informa se o elemento está ou não na lista
