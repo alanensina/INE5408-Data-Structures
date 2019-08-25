@@ -1,2 +1,2 @@
-# DataStructure-CPlusPlus
-Data Structures Course in C++ in Federal University of Santa Catarina - Brazil - 01/2018
+# INE5609 - Data Structures
+Repository of tasks and papers related to the Data Structures, taught in the Information Systems bachelor at UFSC.
